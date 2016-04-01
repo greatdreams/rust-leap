@@ -1,3 +1,3 @@
-pub fn greet() -> &mut str {
+pub fn greet() -> &str {
     "welcome, come to rust world"
 }

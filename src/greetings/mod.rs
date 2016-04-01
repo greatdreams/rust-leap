@@ -1,3 +1,3 @@
-pub fn greet() -> str {
+pub fn greet() -> &static str {
     "welcome, come to rust world"
 }

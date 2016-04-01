@@ -1,13 +1,4 @@
-pub mod leap {
-    pub fn is_leap(year: i32) -> bool {
-       if year % 400 == 0 ||(year % 4 == 0 && year % 100 != 0) {
-            true
-       }else {
-                false
-       }
-    }
-}
-
+pub mod leap;
 #[cfg(test)]
 mod test {
     #[test]
